@@ -21,8 +21,7 @@ public class Aoc1 {
 				list.add(toList);
 			}
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			throw e;
 		} finally {
 			br.close();
 		}
@@ -57,8 +56,7 @@ public class Aoc1 {
 				list.add(toList);
 			}
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			throw e;
 		} finally {
 			br.close();
 		}
